@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -38,9 +38,9 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <h1 class="mx-auto my-0 text-uppercase">ProFix Garage</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Professional Repairs, Optimal Quality.</h2>
+                        <a class="btn btn-primary" href="#about">Mulai</a>
                     </div>
                 </div>
             </div>
@@ -50,11 +50,12 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
+                        <h2 class="text-white mb-4">Hai selamat datang di ProFix Garage</h2>
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+                        Selamat datang di Pro Fix Garage - Bengkel Perbaikan Kendaraan Pilihan!
+
+Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan pengalaman bertahun-tahun, kami siap membantu kendaraan Anda tetap berjalan dengan optimal. Layanan kami mencakup perbaikan mesin, sistem rem, suspensi, serta perawatan rutin. Tim mekanik kami berpengalaman tinggi dan selalu menggunakan suku cadang terbaik untuk hasil yang memuaskan. Percayakan kendaraan Anda kepada kami, dan rasakan kenyamanan dan kehandalan layanan kami. Hubungi Pro Fix Garage sekarang untuk perbaikan kendaraan yang sempurna!
+                            <a href="https://startbootstrap.com/theme/grayscale/"></a>
                         </p>
                     </div>
                 </div>
@@ -158,7 +159,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Jl. Komp. Mitra Raya Lestari II No.12a,</div>
                             </div>
                         </div>
                     </div>
@@ -178,7 +179,7 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50">+62 8788-300-3455</div>
                             </div>
                         </div>
                     </div>
