@@ -26,8 +26,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Poduct</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/listBarang">Poduct</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -62,39 +62,21 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                 <img class="img-fluid" src="/assets/img/ipad.png" alt="..." />
             </div>
         </section>
+        
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/Swallow.JPG" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Ban Swallow</h4>
-                            <p class="text-black-50 mb-0">Swallow terus mengembangkan dan meningkatkan teknologi ban mereka agar sesuai dengan permintaan pasar dan gaya berkendara yang beragam. Penting untuk selalu memperhatikan spesifikasi dan rekomendasi produsen saat memilih ban untuk sepeda motor Anda agar sesuai dengan kebutuhan dan keselamatan berkendara.</p>
+                            <h4>Shoreline</h4>
+                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
                         </div>
-
-                       
                     </div>
                 </div>
-
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/olicastrol.JPG" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Oli Castrol</h4>
-                            <p class="text-black-50 mb-0">Oli Castrol adalah merek oli yang terkenal di seluruh dunia dan diproduksi oleh perusahaan minyak internasional, Castrol. Merek ini telah ada sejak tahun 1899 dan telah menjadi salah satu merek terkemuka dalam industri pelumas. Castrol telah mengembangkan berbagai jenis oli yang dirancang untuk berbagai aplikasi, termasuk kendaraan bermotor, industri, dan aplikasi teknik lainnya.
-
-Berikut adalah beberapa ciri khas dan deskripsi umum mengenai oli Castrol:
-
-Inovasi dan Teknologi: Castrol dikenal karena komitmen mereka terhadap inovasi dan pengembangan teknologi canggih dalam bidang pelumas. Mereka terus melakukan penelitian dan pengembangan untuk memproduksi oli yang efisien, tahan lama, dan ramah lingkungan.
-
-Kualitas dan Keandalan: Castrol memiliki reputasi yang baik dalam hal kualitas dan keandalan produknya. Oli Castrol sering digunakan oleh produsen kendaraan terkemuka sebagai oli pelumas bawaan dan direkomendasikan oleh banyak mekanik dan teknisi.</p>
-                        </div>
-
-                       
-                    </div>
-                </div>
+        
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="/assets/img/montir.jpg" alt="..." /></div>
