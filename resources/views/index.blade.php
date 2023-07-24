@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Poduct</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -67,23 +67,43 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/Swallow.JPG" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Ban Swallow</h4>
+                            <p class="text-black-50 mb-0">Swallow terus mengembangkan dan meningkatkan teknologi ban mereka agar sesuai dengan permintaan pasar dan gaya berkendara yang beragam. Penting untuk selalu memperhatikan spesifikasi dan rekomendasi produsen saat memilih ban untuk sepeda motor Anda agar sesuai dengan kebutuhan dan keselamatan berkendara.</p>
                         </div>
+
+                       
+                    </div>
+                </div>
+
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/olicastrol.JPG" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Oli Castrol</h4>
+                            <p class="text-black-50 mb-0">Oli Castrol adalah merek oli yang terkenal di seluruh dunia dan diproduksi oleh perusahaan minyak internasional, Castrol. Merek ini telah ada sejak tahun 1899 dan telah menjadi salah satu merek terkemuka dalam industri pelumas. Castrol telah mengembangkan berbagai jenis oli yang dirancang untuk berbagai aplikasi, termasuk kendaraan bermotor, industri, dan aplikasi teknik lainnya.
+
+Berikut adalah beberapa ciri khas dan deskripsi umum mengenai oli Castrol:
+
+Inovasi dan Teknologi: Castrol dikenal karena komitmen mereka terhadap inovasi dan pengembangan teknologi canggih dalam bidang pelumas. Mereka terus melakukan penelitian dan pengembangan untuk memproduksi oli yang efisien, tahan lama, dan ramah lingkungan.
+
+Kualitas dan Keandalan: Castrol memiliki reputasi yang baik dalam hal kualitas dan keandalan produknya. Oli Castrol sering digunakan oleh produsen kendaraan terkemuka sebagai oli pelumas bawaan dan direkomendasikan oleh banyak mekanik dan teknisi.</p>
+                        </div>
+
+                       
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/montir.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-white">Montir Handal</h4>
+                                    <p class="mb-0 text-white-50">Montir handal adalah seorang teknisi atau mekanik yang memiliki kemampuan dan keahlian yang tinggi dalam memperbaiki dan merawat kendaraan atau peralatan mekanis lainnya. Mereka merupakan individu yang sangat terampil dan berpengalaman dalam bidang perbaikan otomotif atau peralatan teknik.</p>
                                 </div>
                             </div>
                         </div>
@@ -91,13 +111,13 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="/assets/img/montirban.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                                    <h4 class="text-white">Montir Berpengalaman</h4>
+                                    <p class="mb-0 text-white-50">seorang teknisi atau mekanik yang telah memiliki pengalaman kerja yang signifikan dalam bidang perbaikan dan perawatan kendaraan atau peralatan mekanis. Mereka telah bekerja dalam industri otomotif atau teknik selama beberapa tahun dan telah menghadapi berbagai macam masalah perbaikan dan tantangan teknis.</p>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +189,7 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">201220008@unmuhpnk.ac.id</a></div>
                             </div>
                         </div>
                     </div>
@@ -185,7 +205,7 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
                 </div>
