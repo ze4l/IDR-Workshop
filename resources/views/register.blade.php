@@ -50,7 +50,7 @@
     
 <main class="row justify-content-center form-signin">
   <form class="col-sm-6">
-    <h1 class="h3 mb-3 fw-normal">Silahkan Login</h1>
+    <h1 class="h3 mb-3 fw-normal">Silahkan Daftar</h1>
 
     <div class="form-floating">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -66,7 +66,7 @@
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Masuk</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Daftar</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
   </form>
 </main>
