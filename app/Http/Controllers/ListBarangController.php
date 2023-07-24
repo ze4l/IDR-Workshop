@@ -13,6 +13,9 @@ class ListBarangController extends Controller
      */
     public function index()
     {
+        return view('listBarang', [
+            "lists"=>List_barang::all()
+        ]);
         //
     }
 
