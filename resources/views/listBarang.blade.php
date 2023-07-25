@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Poduct</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/projects">Poduct</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                         @auth
                         <form action ="/logout" method="post">
