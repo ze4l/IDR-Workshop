@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\MontirController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +37,7 @@ Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
 Route::post('/register', [RegisterController::class, 'store']);
+
+Route::get('/montir',[MontirController::class, 'index'])->name('montir');
+
+
