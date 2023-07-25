@@ -41,7 +41,8 @@
         <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
-                   
+                   <div class="text-center">
+                        <img src="/assets/img/{{$list->img}}"style= "width:200px; height:200px"alt=""/>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">{{$list->name}}</h2>
