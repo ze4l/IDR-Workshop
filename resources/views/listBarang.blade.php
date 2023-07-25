@@ -29,6 +29,14 @@
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Poduct</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        @auth
+                        <form action ="/logout" method="post">
+                            @csrf
+                        <li class="nav-item"><button class="nav-link" type="submit">Logout</button></li>
+                        </form>
+                        @else
+                        <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
+                        @endauth
                     </ul>
                 </div>
             </div>
