@@ -46,8 +46,8 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">{{$list->name}}</h2>
-                            <p>Jumlah{{$list->jumlah}} </p>
-                            <p>Rp.{{$list->harga}}</p>
+                            <p>Rp.{{$list->harga}} </p>
+                            <p>Jumlah{{$list->jumlah}}</p>
                         </div>
                     </div>
                 </div>
