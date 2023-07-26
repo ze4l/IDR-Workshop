@@ -24,8 +24,27 @@ class MontirController extends Controller
 
     public function insertdata(Request $request){
         Montir::create($request->all());
-        return redirect()->route('montir')->with('success','Data Berhasil Di Tambakan');
+        return redirect()->route('montir')->with('success','Data Berhasil Di Tambahkan');
     }
+
+    public function tampilkandata($id){
+        $data = Montir::find($id);
+        dd($data);
+        // return view('tampildata', compact('data'));
+    }
+
+
+    // public function updatedata(Request $reques, $id){
+    //     $data = Montir::find($id);
+    //     $data->update();
+    //     return redirect()->route('montir')->with('success','Data Berhasil Di Update');
+    // }
+
+    // public function delete($id) {
+    //     $data = Montir::find($id);
+    //     $data->delete();
+    //     return redirect()->route('montir')->with('success','Data Berhasil Di Hapus');
+    // }
 
    
 
