@@ -23,8 +23,7 @@ class KehadiranController extends Controller
     {
         //
     }
-
-/**
+ /**
      * Store a newly created resource in storage.
      */
     public function store(StoreKehadiranRequest $request)
@@ -53,7 +52,7 @@ class KehadiranController extends Controller
      */
     public function update(UpdateKehadiranRequest $request, Kehadiran $kehadiran)
     {
-        //
+   //
     }
 
     /**
@@ -62,5 +61,5 @@ class KehadiranController extends Controller
     public function destroy(Kehadiran $kehadiran)
     {
         //
-    }
+    }
 }
