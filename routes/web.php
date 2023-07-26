@@ -36,19 +36,3 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
-
-Route::get('/listBarang', [ProductController::class, 'index'])->middleware('auth');
-
-Route::post('/login', [LoginController::class, 'authenticate']);
-Route::post('/logout', [LoginController::class, 'logout']);
-
-Route::post('/register', [RegisterController::class, 'store']);
-
-Route::get('/montir',[MontirController::class, 'index'])->name('montir');
-
-Route::get('/tambahmontir',[MontirController::class, 'tambahmontir'])->name('tambahmontir');
-Route::post('/insertdata', [MontirController::class, 'insertdata'])->name('insertdata');
-
-
-
-

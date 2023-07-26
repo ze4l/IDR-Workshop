@@ -35,12 +35,25 @@
                     <tbody>
                         @foreach($data as $row)
                             <tr>
+<<<<<<< HEAD
                             <th scope="row">{{$row->id}}</th>
                             <td>{{$row->nama}}</td>
                             <td>{{$row->usia}}</td>
                             <td>{{$row->divisi}}</td>
                             <td><button type="button" class="btn btn-danger">Hapus</button>
     <button type="button" class="btn btn-info">Edit</button></td>
+=======
+                                <th scope="row">{{$row->id}}</th>
+                                <td>{{$row->nama}}</td>
+                                <td>{{$row->usia}}</td>
+                                <td>{{$row->divisi}}</td>
+                                <td><button type="button" class="btn btn-danger">Hapus</button>
+        <button type="button" class="btn btn-info">Edit</button></td>
+                                <td>
+                                    <a href = "/tampilkandata/{{ $row->id}}" class="btn btn-danger">Edit</a>
+                                    <a href = "/delete/{{ $row->id}}" class="btn btn-info">Delete</a>
+                                </td>
+>>>>>>> 1f1b24b7bc0ad3570724d630a480ffb548ef249d
                             </tr>
 
                         @endforeach

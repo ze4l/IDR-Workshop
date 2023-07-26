@@ -34,7 +34,12 @@
         </nav>
         <main class="row pt-5 justify-content-center form-signin" style="min-height: 100vh;">
             <div class="col-6 pt-5">
+<<<<<<< HEAD
             <form>
+=======
+            <form action="/register" method="post">
+                @csrf
+>>>>>>> 1f1b24b7bc0ad3570724d630a480ffb548ef249d
             <h1 class="h3 mb-3 text-center fw-normal pt-5">Please sign in</h1>
 
             <div class="form-floating">
@@ -50,6 +55,7 @@
             <label for="floatingPassword">Password</label>
             </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 
@@ -114,6 +120,8 @@
     
   </body>
 =======
+=======
+>>>>>>> 1f1b24b7bc0ad3570724d630a480ffb548ef249d
             <div class="checkbox mb-3">
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">register</button>
@@ -129,5 +137,8 @@
         <!-- Core theme JS-->
         <script src="/js/scripts.js"></script>
     </body>
+<<<<<<< HEAD
 >>>>>>> b98f13929966d82d0f74503541983804a9745ff6
+=======
+>>>>>>> 1f1b24b7bc0ad3570724d630a480ffb548ef249d
 </html>

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        <title>Home Bengkel</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -27,9 +27,20 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/listBarang">Product</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/listBarang">Poduct</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item">
+                            @auth 
+                            <form action="/logout" method="post">
+                                @csrf 
+                                <button class="btn btn-primary" type="submit">
+                                    logout
+                                </button>
+                            </form>
+                            @else 
+                            <a class="nav-link" href="/login">Login</a>
+                            @endauth
+                        </li>
                     </ul>
                 </div>
             </div>
