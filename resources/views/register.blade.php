@@ -49,7 +49,9 @@
   <body class="text-center">
     
 <main class="row justify-content-center form-signin">
-  <form class="col-sm-6">
+  <div class="col-6 pt-5">
+  <form class=" /register" method="post">
+      @csrf
     <h1 class="h3 mb-3 fw-normal">Silahkan Daftar</h1>
 
     <div class="form-floating">
@@ -61,11 +63,8 @@
       <label for="floatingPassword">Masukkan Password</label>
     </div>
 
-    <div class="checkbox mb-3">
-      <label>
-        <input type="checkbox" value="remember-me"> Remember me
-      </label>
-    </div>
+    
+      
     <button class="w-100 btn btn-lg btn-primary" type="submit">Daftar</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2023</p>
   </form>

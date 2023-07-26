@@ -27,8 +27,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/listBarang">Poduct</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/listBarang">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,8 +71,8 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Kenapa Perawatan Berkala Kendaraan Itu Penting?</h4>
+                            <p class="text-black-50 mb-0">Perawatan berkala kendaraan sangat penting karena memberikan beberapa manfaat seperti menjaga kondisi mobil tetap prima, meningkatkan nilai jual, dan memperpanjang umur kendaraan. Perawatan rutin juga membantu mendeteksi masalah secara dini sehingga dapat mencegah kerusakan fatal. Meskipun mobil tidak digunakan setiap hari, perawatan tetap diperlukan untuk memastikan kendaraan dalam kondisi optimal.</p>
                         </div>
                     </div>
                 </div>
@@ -84,8 +84,8 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Montir Handal</h4>
-                                    <p class="mb-0 text-white-50">Montir handal adalah seorang teknisi atau mekanik yang memiliki kemampuan dan keahlian yang tinggi dalam memperbaiki dan merawat kendaraan atau peralatan mekanis lainnya. Mereka merupakan individu yang sangat terampil dan berpengalaman dalam bidang perbaikan otomotif atau peralatan teknik.</p>
+                                    <h4 class="text-white">Seputar montir kami</h4>
+                                    <p class="mb-0 text-white-50">Montir kami memiliki pengetahuan mendalam tentang sistem mekanik dan elektronik. Mereka mampu dengan cepat mendiagnosis masalah, menemukan solusi kreatif, dan berkomunikasi dengan pelanggan secara transparan. Keandalan, profesionalisme, dan pelayanan terbaik adalah ciri khas dari montir kami.</p>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Montir Berpengalaman</h4>
+                                    <h4 class="text-white">Product</h4>
                                     <p class="mb-0 text-white-50">seorang teknisi atau mekanik yang telah memiliki pengalaman kerja yang signifikan dalam bidang perbaikan dan perawatan kendaraan atau peralatan mekanis. Mereka telah bekerja dalam industri otomotif atau teknik selama beberapa tahun dan telah menghadapi berbagai macam masalah perbaikan dan tantangan teknis.</p>
                                 </div>
                             </div>
