@@ -29,6 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/listBarang">Product</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,25 +60,25 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="/assets/img/ipad.png" alt="..." />
             </div>
         </section>
         
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section style="margin:4%" id="projects">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead2.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5"> 
                         <div class="featured-text text-center text-lg-left">
                             <h4>Kenapa Perawatan Berkala Kendaraan Itu Penting?</h4>
-                            <p class="text-black-50 mb-0">Perawatan berkala kendaraan sangat penting karena memberikan beberapa manfaat seperti menjaga kondisi mobil tetap prima, meningkatkan nilai jual, dan memperpanjang umur kendaraan. Perawatan rutin juga membantu mendeteksi masalah secara dini sehingga dapat mencegah kerusakan fatal. Meskipun mobil tidak digunakan setiap hari, perawatan tetap diperlukan untuk memastikan kendaraan dalam kondisi optimal.</p>
+                            <p class="text-black-50 mb-0">Perawatan berkala kendaraan penting untuk menjaga kondisi mobil, meningkatkan nilai jual, memperpanjang umur kendaraan, dan mendeteksi masalah secara dini agar terhindar dari kerusakan fatal, meskipun mobil tidak digunakan setiap hari.</p>
                         </div>
                     </div>
                 </div>
         
                 <!-- Project One Row-->
+                <section style="margin:1%">
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="/assets/img/montir.jpg" alt="..." /></div>
                     <div class="col-lg-6">
@@ -98,8 +99,8 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Product</h4>
-                                    <p class="mb-0 text-white-50">seorang teknisi atau mekanik yang telah memiliki pengalaman kerja yang signifikan dalam bidang perbaikan dan perawatan kendaraan atau peralatan mekanis. Mereka telah bekerja dalam industri otomotif atau teknik selama beberapa tahun dan telah menghadapi berbagai macam masalah perbaikan dan tantangan teknis.</p>
+                                    <h4 class="text-white">Product yang kami gunakan</h4>
+                                    <p class="mb-0 text-white-50"> kami juga menyediakan part dan produk bengkel yang berkualitas tinggi kepada pelanggan kami. Kami mengutamakan performa dan keamanan kendaraan, sehingga Anda dapat mengandalkan layanan kami untuk perbaikan dan pemeliharaan yang optimal."</p>
                                 </div>
                             </div>
                         </div>
