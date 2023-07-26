@@ -40,7 +40,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">ProFix Garage</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Professional Repairs, Optimal Quality.</h2>
+                        <h2 class="text-white-50 mx-auto mt-3 mb-5">Professional Repairs, Optimal Quality.</h2>
                         <a class="btn btn-primary" href="#about">Mulai</a>
                     </div>
                 </div>
@@ -50,8 +50,8 @@
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Hai selamat datang di ProFix Garage</h2>
+                    <div class="col-lg-11">
+                        <h2 class="text-white mb-3">Hai selamat datang di ProFix Garage</h2>
                         <p class="text-white-50">
                         Selamat datang di Pro Fix Garage - Bengkel Perbaikan Kendaraan Pilihan!
 
@@ -78,7 +78,7 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                 </div>
         
                 <!-- Project One Row-->
-                <section style="margin:1%">
+                <section style="margin:2%">
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="/assets/img/montir.jpg" alt="..." /></div>
                     <div class="col-lg-6">
