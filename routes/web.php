@@ -31,8 +31,6 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/listBarang', [ListBarangController::class, 'index'])->middleware('auth');
-
 Route::post('/login', [LoginController::class, 'authenticate'])->middleware('guest');
 Route::post('/logout', [LoginController::class, 'logout']);
 
