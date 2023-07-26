@@ -36,6 +36,7 @@
                         @foreach($data as $row)
                             <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <th scope="row">{{$row->id}}</th>
                             <td>{{$row->nama}}</td>
                             <td>{{$row->usia}}</td>
@@ -43,6 +44,8 @@
                             <td><button type="button" class="btn btn-danger">Hapus</button>
     <button type="button" class="btn btn-info">Edit</button></td>
 =======
+=======
+>>>>>>> 7dc9c15e637a442a82f1999e553eb948b11081bc
                                 <th scope="row">{{$row->id}}</th>
                                 <td>{{$row->nama}}</td>
                                 <td>{{$row->usia}}</td>
@@ -53,7 +56,10 @@
                                     <a href = "/tampilkandata/{{ $row->id}}" class="btn btn-danger">Edit</a>
                                     <a href = "/delete/{{ $row->id}}" class="btn btn-info">Delete</a>
                                 </td>
+<<<<<<< HEAD
 >>>>>>> 1f1b24b7bc0ad3570724d630a480ffb548ef249d
+=======
+>>>>>>> 7dc9c15e637a442a82f1999e553eb948b11081bc
                             </tr>
 
                         @endforeach

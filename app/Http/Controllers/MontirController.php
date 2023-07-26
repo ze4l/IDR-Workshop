@@ -25,6 +25,7 @@ class MontirController extends Controller
     public function insertdata(Request $request){
         Montir::create($request->all());
 <<<<<<< HEAD
+<<<<<<< HEAD
         return redirect()->route('montir')->with('success','Data Berhasil Di Tambakan');
     }
 
@@ -47,6 +48,24 @@ class MontirController extends Controller
     //     return redirect()->route('montir')->with('success','Data Berhasil Di Update');
     // }
 
+=======
+        return redirect()->route('montir')->with('success','Data Berhasil Di Tambahkan');
+    }
+
+    public function tampilkandata($id){
+        $data = Montir::find($id);
+        dd($data);
+        // return view('tampildata', compact('data'));
+    }
+
+
+    // public function updatedata(Request $reques, $id){
+    //     $data = Montir::find($id);
+    //     $data->update();
+    //     return redirect()->route('montir')->with('success','Data Berhasil Di Update');
+    // }
+
+>>>>>>> 7dc9c15e637a442a82f1999e553eb948b11081bc
     // public function delete($id) {
     //     $data = Montir::find($id);
     //     $data->delete();
@@ -55,6 +74,9 @@ class MontirController extends Controller
 
    
 
+<<<<<<< HEAD
 >>>>>>> 1f1b24b7bc0ad3570724d630a480ffb548ef249d
+=======
+>>>>>>> 7dc9c15e637a442a82f1999e553eb948b11081bc
   
 }
