@@ -16,14 +16,18 @@ class MontirController extends Controller
         //
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
+
+    public function tambahmontir(){
+        return view('tambahdata');
     }
-    
+
+
+    public function insertdata(Request $request){
+        Montir::create($request->all());
+        return redirect()->route('montir')->with('success','Data Berhasil Di Tambakan');
+    }
+
+   
 
   
 }

@@ -40,4 +40,9 @@ Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/montir',[MontirController::class, 'index'])->name('montir');
 
+Route::get('/tambahmontir',[MontirController::class, 'tambahmontir'])->name('tambahmontir');
+Route::post('/insertdata', [MontirController::class, 'insertdata'])->name('insertdata');
+
+
+
 

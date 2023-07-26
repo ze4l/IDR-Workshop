@@ -14,8 +14,14 @@
     <h1 class="text-center mb-4">Data Montir</h1>
 
         <div class="container">
-            <button type =<button type="button" class="btn btn-success">Tambah +</button>
+            <a href=" /tambahmontir" class="btn btn-success">Tambah +</a>
             <div class="row">
+            @if ($message = Session::get('success'))
+                <div class="alert alert-succes" role="alert">  
+                    {{$message}}
+                </div>
+        </div>
+            @endif
                 <table class="table">
                     <thead>
                         <tr>
