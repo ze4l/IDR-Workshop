@@ -39,11 +39,9 @@
                                 <td>{{$row->nama}}</td>
                                 <td>{{$row->usia}}</td>
                                 <td>{{$row->divisi}}</td>
-                                <td><button type="button" class="btn btn-danger">Hapus</button>
-        <button type="button" class="btn btn-info">Edit</button></td>
                                 <td>
-                                    <a href = "/tampilkandata/{{ $row->id}}" class="btn btn-danger">Edit</a>
-                                    <a href = "/delete/{{ $row->id}}" class="btn btn-info">Delete</a>
+                                    <a href="/delete/{{ $row->id }}" class="btn btn-danger">Delete</a>
+                                   <a href="/tampilkandata/{{ $row->id }}" class="btn btn-info">Edit</a>
                                 </td>
                             </tr>
 
@@ -51,7 +49,7 @@
                         
                      
                     </tbody>
-                    </table>
+                </table>
 
              
             

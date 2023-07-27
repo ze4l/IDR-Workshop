@@ -40,11 +40,11 @@ class MontirController extends Controller
     //     return redirect()->route('montir')->with('success','Data Berhasil Di Update');
     // }
 
-    // public function delete($id) {
-    //     $data = Montir::find($id);
-    //     $data->delete();
-    //     return redirect()->route('montir')->with('success','Data Berhasil Di Hapus');
-    // }
+    public function delete($id) {
+        $data = Montir::find($id);
+        $data->delete();
+        return redirect()->route('montir')->with('success', 'Data Berhasil Di Hapus');
+    }
 
    
 
