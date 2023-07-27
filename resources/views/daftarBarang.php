@@ -43,7 +43,7 @@
         </nav>
        
 
-     @foreach( $lists as $list)
+     @foreach( $daftars as $list)
             
         
         <section id="scroll">
