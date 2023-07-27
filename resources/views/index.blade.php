@@ -64,9 +64,7 @@
                     <div class="col-lg-11">
                         <h2 class="text-white mb-3">Hai selamat datang di ProFix Garage</h2>
                         <p class="text-white-50">
-                        Selamat datang di Pro Fix Garage - Bengkel Perbaikan Kendaraan Pilihan!
-
-Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan pengalaman bertahun-tahun, kami siap membantu kendaraan Anda tetap berjalan dengan optimal. Layanan kami mencakup perbaikan mesin, sistem rem, suspensi, serta perawatan rutin. Tim mekanik kami berpengalaman tinggi dan selalu menggunakan suku cadang terbaik untuk hasil yang memuaskan. Percayakan kendaraan Anda kepada kami, dan rasakan kenyamanan dan kehandalan layanan kami. Hubungi Pro Fix Garage sekarang untuk perbaikan kendaraan yang sempurna!
+                        Profix Garage merupakan perusahaan terkemuka di industri otomotif, khususnya dalam layanan perawatan, perbaikan, dan penyempurnaan kendaraan bermotor. Mereka memiliki tim mekanik berpengalaman dan menggunakan teknologi modern untuk memberikan layanan berkualitas tinggi kepada pelanggan. Dikenal karena komitmen mereka terhadap kepuasan pelanggan dan ketepatan waktu, Profix Garage menjadi pilihan utama bagi banyak pemilik kendaraan yang mencari solusi profesional dan handal.
                             <a href="https://startbootstrap.com/theme/grayscale/"></a>
                         </p>
                     </div>
