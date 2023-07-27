@@ -51,7 +51,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">ProFix Garage</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Professional Repairs, Optimal Quality.</h2>
+                        <h2 class="text-white-50 mx-auto mt-3 mb-5">Professional Repairs, Optimal Quality.</h2>
                         <a class="btn btn-primary" href="#about">Mulai</a>
                     </div>
                 </div>
@@ -61,8 +61,8 @@
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Hai selamat datang di ProFix Garage</h2>
+                    <div class="col-lg-11">
+                        <h2 class="text-white mb-3">Hai selamat datang di ProFix Garage</h2>
                         <p class="text-white-50">
                         Selamat datang di Pro Fix Garage - Bengkel Perbaikan Kendaraan Pilihan!
 
@@ -71,33 +71,33 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="/assets/img/ipad.png" alt="..." />
             </div>
         </section>
         
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section style="margin:4%" id="projects">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="/assets/img/bg-masthead2.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5"> 
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                            <h4>Kenapa Perawatan Berkala Kendaraan Itu Penting?</h4>
+                            <p class="text-black-50 mb-0">Perawatan berkala kendaraan penting untuk menjaga kondisi mobil, meningkatkan nilai jual, memperpanjang umur kendaraan, dan mendeteksi masalah secara dini agar terhindar dari kerusakan fatal, meskipun mobil tidak digunakan setiap hari.</p>
                         </div>
                     </div>
                 </div>
         
                 <!-- Project One Row-->
+                <section style="margin:2%">
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="/assets/img/montir.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Montir Handal</h4>
-                                    <p class="mb-0 text-white-50">Montir handal adalah seorang teknisi atau mekanik yang memiliki kemampuan dan keahlian yang tinggi dalam memperbaiki dan merawat kendaraan atau peralatan mekanis lainnya. Mereka merupakan individu yang sangat terampil dan berpengalaman dalam bidang perbaikan otomotif atau peralatan teknik.</p>
+                                    <h4 class="text-white">Seputar montir kami</h4>
+                                    <p class="mb-0 text-white-50">Montir kami memiliki pengetahuan mendalam tentang sistem mekanik dan elektronik. Mereka mampu dengan cepat mendiagnosis masalah, menemukan solusi kreatif, dan berkomunikasi dengan pelanggan secara transparan. Keandalan, profesionalisme, dan pelayanan terbaik adalah ciri khas dari montir kami.</p>
                                 </div>
                             </div>
                         </div>
@@ -110,8 +110,8 @@ Kami adalah bengkel perbaikan kendaraan yang elegan dan terpercaya. Dengan penga
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Montir Berpengalaman</h4>
-                                    <p class="mb-0 text-white-50">seorang teknisi atau mekanik yang telah memiliki pengalaman kerja yang signifikan dalam bidang perbaikan dan perawatan kendaraan atau peralatan mekanis. Mereka telah bekerja dalam industri otomotif atau teknik selama beberapa tahun dan telah menghadapi berbagai macam masalah perbaikan dan tantangan teknis.</p>
+                                    <h4 class="text-white">Product yang kami gunakan</h4>
+                                    <p class="mb-0 text-white-50"> kami juga menyediakan part dan produk bengkel yang berkualitas tinggi kepada pelanggan kami. Kami mengutamakan performa dan keamanan kendaraan, sehingga Anda dapat mengandalkan layanan kami untuk perbaikan dan pemeliharaan yang optimal."</p>
                                 </div>
                             </div>
                         </div>

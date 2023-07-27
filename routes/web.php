@@ -23,6 +23,14 @@ Route::get('/', function () {
 });
 
 
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::post('/register', [RegisterController::class, 'store']);
+
+
 Route::get('/listBarang', [ListBarangController::class, 'index']);
 // Route::get('/daftarBarang', [DaftarBarangController::class, 'index']);
 
