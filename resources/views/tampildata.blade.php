@@ -17,7 +17,7 @@
           <div class="col-8">
             <div class="card">
               <div class="card-body">
-                <form action="/" method="post">
+                <form action="/updatedata/{{$data->id}}" method="post">
                     @csrf
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>

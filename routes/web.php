@@ -28,19 +28,16 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::post('/register', [RegisterController::class, 'store']);
 
 
 Route::get('/listBarang', [ListBarangController::class, 'index']);
-// Route::get('/daftarBarang', [DaftarBarangController::class, 'index']);
+
 
 Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-Route::get('/register', function () {
-    return view('register');
-});
+
 
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
@@ -53,7 +50,7 @@ Route::get('/tambahmontir',[MontirController::class, 'tambahmontir'])->name('tam
 Route::post('/insertdata', [MontirController::class, 'insertdata'])->name('insertdata');
 
 Route::get('/tampilkandata/{id}',[MontirController::class, 'tampilkandata'])->name('tampilkandata');
-// Route::post('/updatedata', [MontirController::class, 'updatedata'])->name('updatedata');
+Route::post('/updatedata/{id}', [MontirController::class, 'updatedata'])->name('updatedata');
 
 Route::get('/delete/{id}',[MontirController::class, 'delete'])->name('delete');
 
