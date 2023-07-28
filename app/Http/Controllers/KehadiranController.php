@@ -13,6 +13,8 @@ class KehadiranController extends Controller
      */
     public function index()
     {
+        $data = Kehadiran::all();
+        return view('kehadiran', compact('data'));
         //
     }
 

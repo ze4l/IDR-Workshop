@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Kehadiran extends Model
 {
     use HasFactory;
+
+    public function montir (){
+        return $this->belongsTo(Montir::class, 'id_montir');
+    }
 }

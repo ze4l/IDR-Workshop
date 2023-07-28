@@ -29,6 +29,7 @@
                         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="/listBarang">Product</a></li>
                         <li class="nav-item"><a class="nav-link" href="/montir">My Montir</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/kehadiran">Kehadiran</a></li>
                         <li class="nav-item">
                             @auth 
                             <form action="/logout" method="post">

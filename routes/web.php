@@ -6,6 +6,7 @@ use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\DaftarBarangController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\MontirController;
+use App\Http\Controllers\KehadiranController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,9 +43,11 @@ Route::get('/login', function () {
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::post('/logout', [LoginController::class, 'logout']);
 
-Route::post('/register', [RegisterController::class, 'store']);
+Route::post('/register', [RegisterController::class, 'index']);
 
 Route::get('/montir',[MontirController::class, 'index'])->name('montir');
+
+Route::get('/kehadiran',[KehadiranController::class, 'index']);
 
 Route::get('/tambahmontir',[MontirController::class, 'tambahmontir'])->name('tambahmontir');
 Route::post('/insertdata', [MontirController::class, 'insertdata'])->name('insertdata');
